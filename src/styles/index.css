@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary: #001733;
+  --secondary: #553bcb;
+  --darkgray: #22262a;
+  --ligthgray: #d3d3d3;
+  --gray: #808080;
+  --white: #f8f8f8;
+  --active:#61dafb;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  list-style: none;
+}
+
+body {
+  color: #333;
+  line-height: 1.5;
+}
+
+.primary-color {
+  color: var(--primary);
+}
+
+.contenedorGeneral {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1;
+}
