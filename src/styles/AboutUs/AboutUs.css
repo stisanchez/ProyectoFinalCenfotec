@@ -1,0 +1,13 @@
+.aboutUsContent .info-text {
+    padding: 1rem;
+}
+
+.aboutUsContent img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.aboutUsContent p {
+    text-align: justify;
+}

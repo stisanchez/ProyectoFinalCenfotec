@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Link, NavLink, Outlet } from 'react-router-dom'
-import Logo from '../../images/LogoBancoDigital.png'
+import Logo from '../../images/LogoBD.png'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import '../../styles/navbar.css'
 import '../../styles/index.css'
@@ -49,7 +49,7 @@ export default function LayoutGeneral() {
                 Aqui van el componente hijo
             </main>
 
-            <footer style={{ backgroundColor: '#f0f0f0', padding: '15px', textAlign: 'center', borderTop: '1px solid #ddd' }}>
+            <footer>
                 <p>&copy; 2025 Banco Digital. Todos los derechos reservados.</p>
             </footer>
             {/* <hr />
