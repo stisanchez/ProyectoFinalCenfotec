@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
+import '../styles/Panels.css'
+
 import { TabMenu } from 'primereact/tabmenu';
 
 import History from './About/History';
 import Values from './About/Values';
 import SucursalList from './About/SucursalList';
-
-import '../styles/Panels.css'
+import Certification from './About/Certifications';
 
 
 export default function About() {
@@ -26,7 +27,7 @@ export default function About() {
         {activeIndex === 0 && <History/>}
         {activeIndex === 1 && <Values/>}
         {activeIndex === 2 && <SucursalList/>}
-        {activeIndex === 3 && <p>Content for Certificaciones</p>}
+        {activeIndex === 3 && <Certification/>}
       </div>
     </div>
   )
