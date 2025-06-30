@@ -1,7 +1,12 @@
 import React, { useState } from 'react';
 import { TabMenu } from 'primereact/tabmenu';
+
 import History from './About/History';
-import '../styles/AboutUs/AboutUs.css'
+import Values from './About/Values';
+import SucursalList from './About/SucursalList';
+
+import '../styles/Panels.css'
+
 
 export default function About() {
   const items = [
@@ -19,8 +24,8 @@ export default function About() {
       <TabMenu model={items} />
       <div className='aboutUsContent'>
         {activeIndex === 0 && <History/>}
-        {activeIndex === 1 && <p>Content for Mision Vision Valores tab</p>}
-        {activeIndex === 2 && <p>Content for Sucursales</p>}
+        {activeIndex === 1 && <Values/>}
+        {activeIndex === 2 && <SucursalList/>}
         {activeIndex === 3 && <p>Content for Certificaciones</p>}
       </div>
     </div>
