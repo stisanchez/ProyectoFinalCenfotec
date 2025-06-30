@@ -5,7 +5,7 @@ import PanelImageText from '../../components/common/panels/PanelImageText'
 
 import BaseIIIComplains from '../../images/BaseIIIComplains.jpg';
 import ISO9001 from '../../images/ISO9001.jpg';
-import ISO22301 from '../../images/ISO22301.jpg';
+import ISO22301 from '../../images/ISO22301.png';
 import ISO27001 from '../../images/ISO27001.jpg';
 import Ley8968 from '../../images/Ley8968.jpg';
 import PCIDSS from '../../images/PCIDSS.jpg';
@@ -15,7 +15,7 @@ export default function Certification() {
         <>
             <PanelText
                 Titulo={"Nuestro Compromiso con la Seguridad y la Excelencia"}
-                contenido={"En Banco Digital trabajamos con los más altos estándares de seguridad, calidad y cumplimiento. Estas certificaciones respaldan nuestro compromiso contigo."}
+                contenido={"En Banco Digital, la confianza de nuestros clientes es lo más importante. Por eso, trabajamos bajo los más altos estándares internacionales en seguridad, calidad y gestión. Cada certificación que hemos obtenido respalda nuestro compromiso con la protección de tus datos, la eficiencia de nuestros procesos y la transparencia en nuestras operaciones. Estas son algunas de las certificaciones que garantizan que estás en manos seguras:"}
             />
 
             <PanelTextImage

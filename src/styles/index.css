@@ -11,7 +11,7 @@ body {
   --ligthgray: #d3d3d3;
   --gray: #808080;
   --white: #f8f8f8;
-  --active:#61dafb;
+  --active: #61dafb;
 }
 
 ul {
@@ -39,4 +39,14 @@ body {
 
 main {
   flex-grow: 1;
+}
+
+footer {
+  background: var(--ligthgray);
+  padding: 10px;
+  text-align: end;
+}
+
+footer p {
+  margin: 0;
 }
